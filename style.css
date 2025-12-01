@@ -147,3 +147,61 @@ h2 {
     font-family: 'Dancing Script', cursive;
     font-size: 1.6rem;
 }
+
+.scrapbook-section {
+    text-align: center;
+    margin: 40px auto;
+    position: relative;
+    width: fit-content;
+    padding: 20px;
+}
+
+.scrap-vinyl {
+    width: 220px;
+    max-width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease;
+}
+
+.scrap-vinyl:hover {
+    transform: scale(1.05);
+}
+
+.scrap-note {
+    background: #fffdf6;
+    border: 2px solid #e8dccc;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 10px;
+    transform: rotate(-2deg);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+    font-family: "Courier New", "Bradley Hand", "Segoe Script", cursive;
+    max-width: 260px;
+}
+
+.scrap-note p {
+    font-size: 16px;
+    color: #755c4e;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.tape {
+    width: 70px;
+    position: absolute;
+    opacity: 0.8;
+}
+
+.top-left {
+    top: -5px;
+    left: -10px;
+    transform: rotate(-12deg);
+}
+
+.top-right {
+    top: -5px;
+    right: -10px;
+    transform: rotate(12deg);
+}
