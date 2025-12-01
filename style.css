@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #fffaf2;
+    color: #5f4a3a;
+}
+
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+    color: #b08968;
+}
+
+h1 {
+    font-size: 3.4rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+/* Cover */
+.cover {
+    text-align: center;
+    padding: 70px 20px;
+    background: #fce8ea;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    opacity: 0.8;
+}
+
+/* Polaroid Style */
+.polaroid {
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    width: 260px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+}
+
+.polaroid img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.polaroid span {
+    display: block;
+    text-align: center;
+    padding-top: 8px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2rem;
+}
+
+/* Story Section */
+.story {
+    padding: 60px 20px;
+}
+
+.story-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+
+.story-text {
+    flex: 1;
+    min-width: 240px;
+    line-height: 1.6;
+}
+
+.story-image img {
+    width: 260px;
+    border-radius: 6px;
+    box-shadow: 3px 6px 10px rgba(0,0,0,0.15);
+}
+
+/* Tape */
+.taped img {
+    position: relative;
+}
+
+.taped::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90px;
+    height: 25px;
+    background: #f9dada;
+    opacity: 0.7;
+    border-radius: 3px;
+}
+
+/* Gallery */
+.gallery {
+    padding: 60px 20px;
+    background: #fff3f5;
+    text-align: center;
+}
+
+.gallery-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.small {
+    width: 180px;
+}
+
+.tilted-left {
+    transform: rotate(-4deg);
+}
+
+.tilted-right {
+    transform: rotate(4deg);
+}
+
+/* Notes */
+.notes {
+    padding: 60px 20px;
+}
+
+.notes-grid {
+    display: grid;
+    gap: 20px;
+}
+
+.note {
+    background: #fce8ea;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 8px rgba(0,0,0,0.12);
+}
+
+/* Final */
+.final {
+    text-align: center;
+    padding: 80px 20px;
+    background: #f9dada;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.6rem;
+}
